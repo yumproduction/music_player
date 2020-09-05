@@ -9,13 +9,3 @@
     font-style: normal;
   }
   
-  @font-face {
-    font-family: 'Bronova';
-    src: url('./../../fonts/Bronova\ Bold.eot');
-    src: local('./../../fonts/Bronova-Bold'), local('Bronova-Bold'),
-      url('./../../fonts/Bronova\ Bold.eot') format('embedded-opentype'),
-      url('./../../fonts/Bronova\ Bold.woff') format('woff'),
-      url('./../../fonts/Bronova\ Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
