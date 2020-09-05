@@ -55,7 +55,7 @@ const Listening = (props) => {
                         type="range" className='e-range' />
                 </div>
                 <div className={classes.buttons}>
-                    <button onClick={() => {props.setListening(false);
+                    <button onClick={() => {props.albumMusic[props.music.id] != null && props.setListening(false);
                        props.albumMusic[props.music.id - 2] != null &&  props.onMusicClick(props.albumMusic[props.music.id - 2].img, props.albumMusic[props.music.id - 2].name, props.albumMusic[props.music.id - 2].singer, props.albumMusic[props.music.id - 2].audio, true, props.currentSlide, props.albumMusic[props.music.id - 2].id)
                     }}>
                         <img className={classes.prev} src={prev} alt="" />
@@ -64,7 +64,7 @@ const Listening = (props) => {
                         className={classes.playB} >
                         <Button listeningMode={props.listening} />
                     </div>
-                    <button onClick={() => { props.setListening(false);
+                    <button onClick={() => {props.albumMusic[props.music.id] != null && props.setListening(false);
                         props.albumMusic[props.music.id] != null && props.onMusicClick(props.albumMusic[props.music.id].img, props.albumMusic[props.music.id].name, props.albumMusic[props.music.id].singer, props.albumMusic[props.music.id].audio, true, props.currentSlide, props.albumMusic[props.music.id].id)
                     }}>
                         <img className={classes.next} src={next} alt="" />
