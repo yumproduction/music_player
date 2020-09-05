@@ -1,0 +1,105 @@
+.slick-slider{
+    width: 100%;
+}
+
+$width: null;
+$screen: null;
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+    touch-action:pan-y;
+
+}
+/* Лента слайдов */
+.slick-track{
+    max-height: 700px;
+    touch-action:pan-y;
+    padding: 70px 0;
+    @media (max-width: 508px){
+        padding: 45px 0;
+    }
+    display: flex;
+    align-items: center;
+}
+/* Слайд */
+.slick-slide{
+    text-align: center;
+    .slider_item{
+        &:focus{
+            outline: none;
+        }
+        position: relative;
+        max-height: 790px;
+        max-width: 790px;
+        
+        @media (max-width: 508px){
+            min-height: 120px;
+        min-width: 120px;
+
+        }
+        margin: 0 auto;
+        .backPhoto{
+             position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.3);
+             filter: blur(32px);
+             z-index: 0;
+
+         }
+         img{
+            @media (max-width: 508px){
+                min-height:    170px;
+            min-width: 170px;
+
+            }
+            width: 80%;
+            min-width: 140px;
+            max-width: 600px;
+
+            
+             position: relative;
+            z-index: 10;
+            transition: all 0.3s ease;
+            transform: scale(0.3);
+            border-radius: 25px;
+            opacity: 0.3;
+            filter: blur(32px);
+        }
+     }
+    
+    &.slick-center{
+        .slider_item{
+            position: relative;
+    
+            .backPhoto{
+                 position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(0.85);
+                 filter: blur(32px);
+                 z-index: 0;
+                 @media (min-width: 508px){
+                    transform: translate(-50%, -50%) scale(0.96);
+                }
+                @media (max-width: 404px){
+                    transform: translate(-50%, -50%) scale(0.84);
+                }
+             }
+             img{
+                transform: scale(1);
+                opacity: 1;
+                filter: none
+            }   
+         }
+
+    }
+}
+
+@if($width: true){
+    $screen: true;
+}
+
+:export {
+    width: $screen;
+  }

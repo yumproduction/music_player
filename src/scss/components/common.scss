@@ -1,0 +1,92 @@
+@import './../libs/variables';
+@import './../libs/normalize';
+@import './input.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+
+$maxWidth: 1280;
+
+@mixin fontSize($pcSize, $mobSize) {
+ $addSize: $pcSize - $mobSize;
+ $maxWidth: $maxWidth - 320;
+ font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $background;
+    @include fontSize(16, 14);
+    -webkit-font-smoothing: antialaised;
+    -webkit-overflow-scrolling: touch;
+    font-weight: 300;
+    color: $font-color;
+    letter-spacing: 0.03em;
+    align-items: center;
+
+}
+
+h1{
+    @include fontSize(28, 24);
+    font-weight: 400;
+    color: #fff;
+
+}
+ h2{
+    @include fontSize(26, 22);
+font-weight: 400;
+color: #fff;
+
+ }
+
+a{
+    @include fontSize(16, 14);
+    text-decoration: none;
+}
+
+p{
+    @include fontSize(20, 14);
+    color: $font-color;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    @media(min-width: 768px){
+        width: 40%;
+    }
+}
+
+
+.buttons{
+    filter: drop-shadow(0px 25px 12px rgba(66, 66, 73, 0.25));
+    button{
+        img{
+            width:  100%;
+            max-width: 70px;
+        }
+    }
+    
+}
+
+.simplebar-track.simplebar-vertical{
+    background-color: #342A38;
+    border-radius: 25px;
+    .simplebar-scrollbar{
+        background-color: #7C6C83;
+        width: 100%;
+        border-radius: 25px;
+        z-index: 99;
+        position: relative;
+        &.simplebar-visible{
+            background-color: #7C6C83;
+            width: 100%;
+            border-radius: 25px;
+            z-index: 99;
+            position: relative;  }
+    }
+}
+
+.true{
+    display: none;
+}
