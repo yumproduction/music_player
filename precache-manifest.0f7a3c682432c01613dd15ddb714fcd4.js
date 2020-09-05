@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a095795ba5b8c210d0fa9dfd7e475b2e",
+    "revision": "c500516c784c866168203e6430254833",
     "url": "/music_player/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/music_player/static/css/2.aef21d24.chunk.css"
   },
   {
-    "revision": "9d2d60f7874452178c61",
-    "url": "/music_player/static/css/main.4b040dd0.chunk.css"
+    "revision": "987a05666982667cc5d9",
+    "url": "/music_player/static/css/main.af76ae62.chunk.css"
   },
   {
     "revision": "2e0cd6b96f399d159ebc",
@@ -20,12 +20,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/music_player/static/js/2.dea2b1f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d2d60f7874452178c61",
+    "revision": "987a05666982667cc5d9",
     "url": "/music_player/static/js/main.fcaaffab.chunk.js"
   },
   {
     "revision": "75697d2cb747193f5119",
     "url": "/music_player/static/js/runtime-main.2fb2338e.js"
+  },
+  {
+    "revision": "017a8d63c7e8902ed4df04b66f49f719",
+    "url": "/music_player/static/media/Bronova Regular.017a8d63.ttf"
+  },
+  {
+    "revision": "250499b8ec0b215c90e800ef1a7854c2",
+    "url": "/music_player/static/media/Bronova Regular.250499b8.eot"
+  },
+  {
+    "revision": "67befebfa37a5bca45a9e4e134237351",
+    "url": "/music_player/static/media/Bronova Regular.67befebf.woff"
   },
   {
     "revision": "be77eaec0c4b6564aa57bdff3e308312",

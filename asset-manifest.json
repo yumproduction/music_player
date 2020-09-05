@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/music_player/static/css/main.4b040dd0.chunk.css",
+    "main.css": "/music_player/static/css/main.af76ae62.chunk.css",
     "main.js": "/music_player/static/js/main.fcaaffab.chunk.js",
     "main.js.map": "/music_player/static/js/main.fcaaffab.chunk.js.map",
     "runtime-main.js": "/music_player/static/js/runtime-main.2fb2338e.js",
@@ -9,11 +9,12 @@
     "static/js/2.dea2b1f9.chunk.js": "/music_player/static/js/2.dea2b1f9.chunk.js",
     "static/js/2.dea2b1f9.chunk.js.map": "/music_player/static/js/2.dea2b1f9.chunk.js.map",
     "index.html": "/music_player/index.html",
-    "precache-manifest.ad9877ce723b72d66cabfbc3b9629a10.js": "/music_player/precache-manifest.ad9877ce723b72d66cabfbc3b9629a10.js",
+    "precache-manifest.0f7a3c682432c01613dd15ddb714fcd4.js": "/music_player/precache-manifest.0f7a3c682432c01613dd15ddb714fcd4.js",
     "service-worker.js": "/music_player/service-worker.js",
     "static/css/2.aef21d24.chunk.css.map": "/music_player/static/css/2.aef21d24.chunk.css.map",
-    "static/css/main.4b040dd0.chunk.css.map": "/music_player/static/css/main.4b040dd0.chunk.css.map",
+    "static/css/main.af76ae62.chunk.css.map": "/music_player/static/css/main.af76ae62.chunk.css.map",
     "static/js/2.dea2b1f9.chunk.js.LICENSE.txt": "/music_player/static/js/2.dea2b1f9.chunk.js.LICENSE.txt",
+    "static/media/common.scss": "/music_player/static/media/Bronova Regular.67befebf.woff",
     "static/media/Golden_Hour.mp3": "/music_player/static/media/Golden_Hour.be77eaec.mp3",
     "static/media/Mad_Love.mp3": "/music_player/static/media/Mad_Love.24eeab3a.mp3",
     "static/media/Starting_Again.mp3": "/music_player/static/media/Starting_Again.d4892533.mp3",
@@ -33,7 +34,7 @@
     "static/js/runtime-main.2fb2338e.js",
     "static/css/2.aef21d24.chunk.css",
     "static/js/2.dea2b1f9.chunk.js",
-    "static/css/main.4b040dd0.chunk.css",
+    "static/css/main.af76ae62.chunk.css",
     "static/js/main.fcaaffab.chunk.js"
   ]
 }
