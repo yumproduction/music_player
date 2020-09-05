@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/music_player/static/css/main.4b040dd0.chunk.css",
+    "main.js": "/music_player/static/js/main.3c3699ed.chunk.js",
+    "main.js.map": "/music_player/static/js/main.3c3699ed.chunk.js.map",
+    "runtime-main.js": "/music_player/static/js/runtime-main.2fb2338e.js",
+    "runtime-main.js.map": "/music_player/static/js/runtime-main.2fb2338e.js.map",
+    "static/css/2.aef21d24.chunk.css": "/music_player/static/css/2.aef21d24.chunk.css",
+    "static/js/2.dea2b1f9.chunk.js": "/music_player/static/js/2.dea2b1f9.chunk.js",
+    "static/js/2.dea2b1f9.chunk.js.map": "/music_player/static/js/2.dea2b1f9.chunk.js.map",
+    "index.html": "/music_player/index.html",
+    "precache-manifest.74d3d22317c03ee1648ca47ba594d87e.js": "/music_player/precache-manifest.74d3d22317c03ee1648ca47ba594d87e.js",
+    "service-worker.js": "/music_player/service-worker.js",
+    "static/css/2.aef21d24.chunk.css.map": "/music_player/static/css/2.aef21d24.chunk.css.map",
+    "static/css/main.4b040dd0.chunk.css.map": "/music_player/static/css/main.4b040dd0.chunk.css.map",
+    "static/js/2.dea2b1f9.chunk.js.LICENSE.txt": "/music_player/static/js/2.dea2b1f9.chunk.js.LICENSE.txt",
+    "static/media/Golden_Hour.mp3": "/music_player/static/media/Golden_Hour.be77eaec.mp3",
+    "static/media/Mad_Love.mp3": "/music_player/static/media/Mad_Love.24eeab3a.mp3",
+    "static/media/Starting_Again.mp3": "/music_player/static/media/Starting_Again.d4892533.mp3",
+    "static/media/Sweetener.mp3": "/music_player/static/media/Sweetener.b2188350.mp3",
+    "static/media/Youngblood.mp3": "/music_player/static/media/Youngblood.2d031bbd.mp3",
+    "static/media/fifth.jpg": "/music_player/static/media/fifth.6f1aca48.jpg",
+    "static/media/first.jpg": "/music_player/static/media/first.73269e61.jpg",
+    "static/media/forth.jpg": "/music_player/static/media/forth.414c3f4e.jpg",
+    "static/media/ic-next.svg": "/music_player/static/media/ic-next.e9b25b2e.svg",
+    "static/media/ic-previous.svg": "/music_player/static/media/ic-previous.85288350.svg",
+    "static/media/play-button.svg": "/music_player/static/media/play-button.52e8b4b7.svg",
+    "static/media/second.jpg": "/music_player/static/media/second.cd4acaf0.jpg",
+    "static/media/stop-button.svg": "/music_player/static/media/stop-button.25b346a6.svg",
+    "static/media/third.jpg": "/music_player/static/media/third.d8b99c60.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fb2338e.js",
+    "static/css/2.aef21d24.chunk.css",
+    "static/js/2.dea2b1f9.chunk.js",
+    "static/css/main.4b040dd0.chunk.css",
+    "static/js/main.3c3699ed.chunk.js"
+  ]
+}
